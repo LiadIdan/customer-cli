@@ -1,0 +1,18 @@
+{
+  "name": "customer-cli",
+  "version": "0.0.1",
+  "description": "Customer managment CLI",
+  "main": "commands.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Liad Idan",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.12.2",
+    "inquirer": "^4.0.1",
+    "mongoose": "^5.0.0-rc0"
+  }
+}
